@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="contenedor">
-		<h1>Aranceles</h1>
+		<h1>Productos textiles</h1>
 		<section class="aranceles">
 			<ul>
 				<?php foreach ($aranceles as $arancel): ?>
