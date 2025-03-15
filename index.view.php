@@ -9,11 +9,11 @@
 </head>
 <body>
 	<div class="contenedor">
-		<h1>Articulos</h1>
-		<section class="articulos">
+		<h1>Aranceles</h1>
+		<section class="aranceles">
 			<ul>
-				<?php foreach ($articulos as $articulo): ?>
-					<li><?php echo $articulo['id'] . '.- ' . $articulo['articulo']; ?></li>
+				<?php foreach ($aranceles as $arancel): ?>
+					<li><?php echo $arancel['id'] . '.- ' . $arancel['ararncel']; ?></li>
 				<?php endforeach; ?>
 			</ul>
 		</section>
