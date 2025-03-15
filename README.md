@@ -20,3 +20,15 @@ git config --global --list    el dominio pertenece a x usuario
 git config --global --unset user.email usuario x   borrar al usuario x
 git config --global user.name cgil0257     nuevo usuario
 git config --globsl user.email souve...    nuevo correo del usuario
+git branch master        se crea rama master
+git checkout master      se cambia a rama master
+git merge test          se fusiona test con master
+git branch -d test      se elimina branch test
+git branch prueba              nueva rama
+git commit -am "se edito archivo"        se inicia nuevo commit
+git checkout master        cambiar de subrama prueba a rama master
+git committ -am "se edito archivo master" 
+git branch -d prueba        se elimina branch prueba
+git log --oneline           indica las ediciones elaboradas
+git tag -a versio´n1.0 -m "primera etiqueta"
+git tag -a 'version1.0 -m 'primera etiqueta
